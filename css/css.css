@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1600px;
+    height: 1800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    background: lightgrey;
+}
+
+.mainBody {
+    width: 76%;
+    height: 1800px;
+    float: left;
+    margin-top: 50px;
+    background-color: #461a70;
+    padding: 50px 30px 0 30px;
+    border-radius: 25px;
+}
+
+.sideBarProperties {
+	width: 15%;
+	height: 1000px;
+	float: left;
+	margin: 1%;
+	margin-top: 50px;
+	padding: 1%;
+}
+
+.sideBarEntry {
+	width: 96%;
+	height: 40px;
+	background: #9eadb0;
+	padding: 1%;
+	padding-top: 12%;
+	margin: 1%;
+	text-align: center;
+	border: 5px solid #3f4347;
+}
+
+h1 {
+    font-size: 30px;
+    color: grey;
+}
+
+p {
+    font-family: 25px;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: #9bd4eb;
+}
+
+.headerTitle {
+	position: relative;
+	top: -100px;
+}
+
+.title {
+    font-family: Arial Black;
+    font-size: 60px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#logo {
+	position: relative;
+	top: 15px;
+	left: 20px;
+}
+
+li {
+	background-color: #9eadb0;
+}
+
+.login {
+    width: 40%;
+    height: 20%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.createLogin {
+    width: 35%;
+    height: 15%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    padding: 50px;
+    text-align: center;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.inputLogin {
+    width: 20%;
+    height: 10%;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.newUser {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.createUser {
+    width: 40%;
+    height: 25%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    padding: 50px;
+    text-align: center;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.paymentHistory {
+    background-color: chocolate;
+    width: 94%;
+    margin: 50px 0px 50px 0px;
+    padding: 5% 3% 5% 3%;
+    text-align: center;
+}
+
+.renters {
+    background-color: chocolate;
+    width: 94%;
+    margin: 50px 0px 50px 0px;
+    padding: 5% 3% 5% 3%;
+    text-align: center;
+}
+
+.properties {
+    background-color: chocolate;
+    width: 94%;
+    margin: 50px 0px 50px 0px;
+    padding: 5% 3% 5% 3%;
+    text-align: center;
+}
+
+fieldset {
+    display: block;
+    margin: 5px;
+    padding: 15px;
+    font-size: 20px; 
+    
+}
+
+legend {
+    font-size: 30px;
+}
+
+input {
+    width: 80%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.homebox {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+.home {
+    width: 41.87%;
+    height: 40%;
+    background-color: #461a70;
+    float: left;
+    color: white;
+    padding: 4%;
+    margin: 0;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.homep {
+    font-size: 25px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f7f6df;
+  text-decoration: none;
+}
+
+th, tr {
+    font-size: 20px;
+    padding: 1% 5% 1% 5%;
+    width: 500px;
+    border: 1px solid  white;
+    text-align: center;
+}
+
+table {
+	border-spacing: 0;
+	color: white;
+}
+
+ td, th {
+	border-style: groove;
+	border-color: black;
+	border-width: 2px;
+	padding: 1% 1% 1% 1%;
+	
+}
+
+/*For the dropdown menu*/
+.dropbtn {
+    background-color: #9EADB2;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border: 5px solid #3f4347;
+    width: 320px;
+    height: 70px;
+    margin: -2px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9bd4eb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 320px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: grey
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a {
+   color: #f7f6df;
+}
+
+/* Input fields area*/
+.formDiv {
+    width: 40%;
+    padding: 3% 0 0 0%;
+    margin: 0 0 0 30%;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=search], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=hidden], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #9EADB2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #9bd4eb;
+}

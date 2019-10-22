@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Property</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+	<div class="header">
+		<img src="images/logo.png" width="150" height="150" id="logo">
+
+		<div class="headerTitle">
+			<h1 class="title">
+				<a href="home" style="color: black">Property Record Keeper</a>
+			</h1>
+		</div>
+	</div>
+
+    <div class="dropdown" style="margin-left: 2px">
+        <button class="dropbtn">Renters</button>
+        <div class="dropdown-content">
+            <a href="renters.html">All Renters</a>
+            <a href="addRenter.html">Add Renter</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Properties</button>
+        <div class="dropdown-content">
+            <a href="properties.html">All Properties</a>
+            <a href="newProperty.html">Add Properties</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Finance</button>
+        <div class="dropdown-content">
+            <a href="paymentHistory.html">Payment History</a>
+            <a href="hoa.html">HOA</a>
+            <a href="insurance.html">Insurance</a>
+            <a href="newInsurance.html">New Insurance</a>
+            <a href="newTaxes.html">New Taxes</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Maintence</button>
+        <div class="dropdown-content">
+            <a href="maintenceList.html">Maintence List</a>
+            <a href="maintenceHistory.html">Maintence History</a>
+            <a href="addNewMaintenceItem.html">Add New Maintence Item</a>
+            <a href="removeMaintenceItem.html">Delete Maintence Item</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Appliances</button>
+        <div class="dropdown-content">
+            <a href="applianceList.html">Appliance List</a>
+            <a href="applianceList.html">Add Appliance</a>
+            <a href="removeAppliance.html">Delete Appliance</a>
+        </div>
+    </div>
+	<div class="formDiv">
+	<form action="scripts/newProperty.php" method="post">
+		StreetAddress: 
+		<br>
+		<input type="text" name="StreetAddress">
+		<br>
+		Purchase Price: 
+		<br>
+		<input type="text" name="price">
+		<br> 
+		<input type="hidden" name="userEmail" id="userEmail">
+		<br>
+		YearBuilt: 
+		<br>
+		<input type="text" name="YearBuilt">
+		<br> 
+		City: 
+		<input type="text" name="City">
+		<br> 
+		State: 
+		<input type="text" name="State">
+		<br> 
+		ZIP: 
+		<input type="number" name="ZIP">
+		<br>
+		<script>
+			let userEmail = sessionStorage.getItem('userEmail');
+			console.log(userEmail);
+			document.getElementById('userEmail').value = sessionStorage
+					.getItem('userEmail');
+		</script>
+		<input type="Submit">
+	</form>
+	<div>
+</body>
+</html>
