@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Insert </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
+<head>
+<title>Insert</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 <?php
+include ("dbinfo.inc.php");
 
-include("dbinfo.inc.php");
+$con = mysqli_connect("avl.cs.unca.edu", $username, $password, $database) or die("Unable to select database");
 
-$con = mysqli_connect("avl.cs.unca.edu", $username, $password, $database)
-        or die("Unable to select database");
+$StreetAddress = $_GET['address'];
+$idquery = "Select PropertyID FROM Property WHERE StreetAddress = '$StreetAddress'";
+$result = mysqli_query($con, $idquery);
+mysqli_query($con, $idquery);
+if (mysqli_errno($con) != 0) {
+    echo mysqli_errno($con) . ": " . mysqli_error($con) . "\n";
+} else {
+    $row = mysqli_fetch_array($result);
+}
 
-$TaxAmount = mysqli_real_escape_string($con, $_REQUEST['amount']);
+$PropertyID = $row['PropertyID'];
 $TaxPayDate = mysqli_real_escape_string($con, $_REQUEST['date']);
-$Property_PropertyID = mysqli_real_escape_string($con, $_REQUEST['PropertyID']);
+$TaxAmount = mysqli_real_escape_string($con, $_REQUEST['amount']);
 
-$query = "INSERT INTO Tax (`TaxAmount`,`TaxPayDate`,`Property_PropertyID`) VALUES ('$TaxAmount', '$TaxPayDate.', '$Property_PropertyID')";
+$query = "INSERT INTO Tax (`TaxAmount`,`TaxPayDate`,`Property_PropertyID`) VALUES ('$TaxAmount', '$TaxPayDate.', '$PropertyID')";
 mysqli_query($con, $query);
 if (mysqli_errno($con) != 0) {
     echo mysqli_errno($con) . ": " . mysqli_error($con) . "\n";
 } else {
-//     echo "SQL is...<br>";
-//     echo $query;
-//     echo "<br> Rows affected: "; 
-//     echo mysqli_affected_rows($con);
-
-    echo "New Tax added.";
+    echo "New Tax Added.";
 }
 
 mysqli_close($con);
