@@ -59,49 +59,16 @@
             <a href="removeAppliance.html">Delete Appliance</a>
         </div>
     </div>
-
-	<div class="mainBody" id="RenterInfo">
-		<script>
-			function ParseURLParameter(Parameter) {
-				var FullURL = window.location.search.substring(1);
-				var ParametersArray = FullURL.split('&');
-				for (var i = 0; i < ParametersArray.length; i++) {
-					var CurrentParameter = ParametersArray[i].split('=');
-					if (CurrentParameter[0] == Parameter) {
-						return CurrentParameter[1];
-					}
-				}
-			}
-
-			var RenterID = ParseURLParameter('RenterID');
-			var destination = ("scripts/renterInfo.php?RenterID=" + RenterID)
-
-			$(document).ready(function() {
-				$.post(destination, function(postresult) {
-					$("#RenterInfo").append(postresult);
-				});
+	
+	<div class="mainBody" id="insuranceList">
+	<script>
+		$(document).ready(function() {
+			$.post("scripts/insuranceList.php", function(postresult) {
+				$("#insuranceList").append(postresult);
 			});
-		</script>
-		<br>
+		});
+	</script>
+	<br>
 	</div>
-
-	<div class="sideBarProperties">
-		<div class="sideBarEntry">
-			<a href="scripts/deleteRenter.php"
-				onclick="location.href=this.href+'?RenterID='+RenterID;return false;">Delete
-				Renter</a>
-		</div>
-		<div class="sideBarEntry">
-			<a href="addPayment.html"
-				onclick="location.href=this.href+'?RenterID='+RenterID;return false;">Add
-				Payment</a>
-		</div>
-		<div class="sideBarEntry">
-			<a href="paymentHistory.html"
-				onclick="location.href=this.href+'?RenterID='+RenterID;return false;">Payment
-				History</a>
-		</div>
-	</div>
-
 </body>
 </html>
