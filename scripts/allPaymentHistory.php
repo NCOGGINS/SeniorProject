@@ -15,7 +15,7 @@ $con = mysqli_connect("avl.cs.unca.edu", $username, $password, $database) or die
 
 $id = $_GET['RenterID'];
 
-$query = "SELECT * FROM Rent";
+$query = "SELECT * FROM Rent WHERE Renter_RenterID= $id";
 $result = mysqli_query($con, $query);
 
 mysqli_close($con);
