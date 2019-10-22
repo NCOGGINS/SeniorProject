@@ -6,7 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/css.css">
 <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
-<link rel="icon" href="images/logo.png">
 </head>
 <body>
 	<div class="header">
@@ -37,7 +36,7 @@
         <button class="dropbtn">Finance</button>
         <div class="dropdown-content">
             <a href="paymentHistory.html">Payment History</a>
-            <a href="allHOAs.html">All HOAs</a>
+            <a href="hoa.html">HOA</a>
             <a href="insurance.html">Insurance</a>
             <a href="newInsurance.html">New Insurance</a>
             <a href="newTaxes.html">New Taxes</a>
@@ -60,53 +59,16 @@
             <a href="removeAppliance.html">Delete Appliance</a>
         </div>
     </div>
-
-	<div class="homebox">
-		<div class="home">
-			<p class="homep" id="RentTable">
-				<a href="renters.html" style="font-size: 40px">Renters</a>
-			</p>
-			<script>
-				$(document).ready(function() {
-					$.post("scripts/homeRenters.php", function(postresult) {
-						$("#RentTable").append(postresult);
-					});
-				});
-			</script>
-		</div>
-		<div class="home">
-			<p class="homep">Summary</p>
-			<p class="homep" id="SummaryTable"></p>
-			<script>
-				$(document).ready(function() {
-					$.post("scripts/homeSummary.php", function(postresult) {
-						$("#SummaryTable").append(postresult);
-					});
-				});
-			</script>
-		</div>
-		<div class="home">
-			<p class="homep" id="PropertiesTable">
-				<a href="properties.html" style="font-size: 40px">Properties</a>
-			</p>
-			<script>
-				$(document).ready(function() {
-					$.post("scripts/homeProperties.php", function(postresult) {
-						$("#PropertiesTable").append(postresult);
-					});
-				});
-			</script>
-		</div>
-		<div class="home">
-			<p class="homep">Alerts</p>
-			<table>
-				<tr>
-					<th>Header1</th>
-					<th>Header2</th>
-					<th>Header3</th>
-				</tr>
-			</table>
-		</div>
+	
+	<div class="mainBody" id="hoaList">
+	<script>
+		$(document).ready(function() {
+			$.post("scripts/hoaList.php", function(postresult) {
+				$("#hoaList").append(postresult);
+			});
+		});
+	</script>
+	<br>
 	</div>
 </body>
 </html>
