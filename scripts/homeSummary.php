@@ -23,16 +23,14 @@ $row = mysqli_fetch_array($result);
 $RentIncome = $row['SUM(RentCost)'];
 ?>
 		<tr>
-		<td>Total Rent Income</td>
-		<td>
+			<th style="padding: 20px 0px 20px 0px;">Total Rent Income</th>
+			<th style="padding: 20px 0px 20px 0px;">Expected Expenditures</th>
+			<th style="padding: 20px 0px 20px 0px;">Expected Profit</th>
+		</tr>
+		<tr>
+			<td style="padding: 20px 0px 20px 0px;">
 				<?php echo "$$RentIncome"; ?>
 			</td>
-		</tr>
-		<tr>
-			<td>Expected Expenditures</td>
-		</tr>
-		<tr>
-			<td>Expected Profit</td>
 		</tr>
     <?php
     echo "<summary>";
