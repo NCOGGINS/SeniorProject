@@ -13,22 +13,45 @@ ini_set('display_errors', 1);
 include ("dbinfo.inc.php");
 $con = mysqli_connect("avl.cs.unca.edu", $username, $password, $database) or die("Unable to select database");
 
-$query = "SELECT * FROM ApplianceType";
+$query = "SELECT * FROM Appliances";
 $result = mysqli_query($con, $query);
-
-echo "<form action='scripts/newAppliance.php' method='post'>";
-echo "<input type='search' list='appliance' />";
-echo "<datalist id='appliance'?";
-while ($row = mysqli_fetch_array($result)) {
-    echo "<option>$row[ApplianceName]</option>";
-}
-echo "</datalist>";
-echo "<br></div><br><input type='Submit'></form>";
 
 mysqli_close($con);
 
 ?>
+		<table id="appliances">
+		<tr>
+			<th>ApplianceID</th>
+			<th>Install Date</th>
+			<th>Cost</th>
+		</tr>
 
+			<?php
+while ($row = mysqli_fetch_array($result)) {
+
+    $ApplianceID = $row['ApplianceID'];
+    $InstallDate = $row['InstallDate'];
+    $Cost = $row['Cost'];
+
+    ?>
+
+		<tr>
+
+			<td>
+					<?php echo "$ApplianceID"; ?>
+				</td>
+			<td>
+					<?php echo "$InstallDate"; ?>
+				</td>
+			<td>
+					<?php echo "$Cost"; ?>
+				</td>
+		</tr>
+
+    <?php
+}
+echo "<appliances>";
+?>
 
 </body>
 </html>

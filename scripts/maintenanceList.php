@@ -13,22 +13,50 @@ ini_set('display_errors', 1);
 include ("dbinfo.inc.php");
 $con = mysqli_connect("avl.cs.unca.edu", $username, $password, $database) or die("Unable to select database");
 
-$query = "SELECT * FROM MaintenanceType";
+$query = "SELECT * FROM Maintenance";
 $result = mysqli_query($con, $query);
-
-echo "<form action='scripts/newMaintenance.php' method='post'>";
-echo "<input type='search' list='maintenance' />";
-echo "<datalist id='maintenance'?";
-while ($row = mysqli_fetch_array($result)) {
-    echo "<option>$row[MaintenanceName]</option>";
-}
-echo "</datalist>";
-echo "<br></div><br><input type='Submit'></form>";
 
 mysqli_close($con);
 
 ?>
+		<table id="maintenance">
+		<tr>
+			<th>MaintanenceID</th>
+			<th>Install Date</th>
+			<th>Cost</th>
+			<th>Service Due</th>
+		</tr>
 
+			<?php
+while ($row = mysqli_fetch_array($result)) {
+
+    $MaintenanceID = $row['MaintenanceID'];
+    $InstallDate = $row['Install Date'];
+    $Cost = $row['Cost'];
+    $ServiceDue = $row['Service Due'];
+
+    ?>
+
+		<tr>
+
+			<td>
+					<?php echo "$MaintenanceID"; ?>
+				</td>
+			<td>
+					<?php echo "$InstallDate"; ?>
+				</td>
+			<td>
+					<?php echo "$Cost"; ?>
+				</td>
+			<td>
+					<?php echo "$ServiceDue"; ?>
+				</td>
+		</tr>
+
+    <?php
+}
+echo "<maintenance>";
+?>
 
 </body>
 </html>

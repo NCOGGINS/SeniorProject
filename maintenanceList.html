@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PR Keeper</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/css.css">
+<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<img src="images/logo.png" width="150" height="150" id="logo">
+
+		<div class="headerTitle">
+			<h1 class="title">
+				<a href="home" style="color: black">Property Record Keeper</a>
+			</h1>
+		</div>
+	</div>
+
+	<div class="dropdown" style="margin-left: 2px">
+		<button class="dropbtn">Renters</button>
+		<div class="dropdown-content">
+			<a href="renters.html">All Renters</a> <a href="addRenter.html">Add
+				Renter</a>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Properties</button>
+		<div class="dropdown-content">
+			<a href="properties.html">All Properties</a> <a
+				href="newProperty.html">Add Properties</a>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Finance</button>
+		<div class="dropdown-content">
+			<a href="paymentHistory.html">All Payment History</a> <a
+				href="allHOAs.html">All HOAs</a> <a href="allInsurance.html">All
+				Insurance</a> <a href="allTaxes.html">All Taxes</a>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Maintenance</button>
+		<div class="dropdown-content">
+			<a href="maintenanceList.html">Maintenance List</a> <a
+				href="maintenancHistory.html">Maintenance History</a> <a
+				href="addNewMaintenanceItem.html">Add New Maintenance Item</a> <a
+				href="removeMaintenanceItem.html">Delete Maintenance Item</a>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Appliances</button>
+		<div class="dropdown-content">
+			<a href="applianceList.html">Appliance List</a> <a
+				href="applianceList.html">Add Appliance</a> <a
+				href="removeAppliance.html">Delete Appliance</a>
+		</div>
+	</div>
+
+	<div class="mainBody" id="MaintenanceList">
+		<script>
+			$(document).ready(function() {
+				$.post("scripts/maintenanceList.php", function(postresult) {
+					$("#MaintenanceList").append(postresult);
+				});
+			});
+		</script>
+		<br>
+	</div>
+
+	<div class="sideBarProperties">
+		<div class="sideBarEntry">
+			<a href="newProperty.html">New Property</a>
+		</div>
+	</div>
+
+</body>
+</html>
