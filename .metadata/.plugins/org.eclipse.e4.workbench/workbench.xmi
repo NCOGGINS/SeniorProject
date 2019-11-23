@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_aq1BMfRuEemSw-87IUBHSQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_aq1BMvRuEemSw-87IUBHSQ" bindingContexts="_aq1BO_RuEemSw-87IUBHSQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;addAppliance.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\addAppliance.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/addAppliance.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;taxes.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\taxes.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/taxes.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;rentInfo.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\rentInfo.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/rentInfo.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;renters.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\renters.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/renters.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;renter.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\renter.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/renter.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;removeRenter.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\removeRenter.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/removeRenter.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;removeProperty.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\removeProperty.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/removeProperty.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.mylyn.wikitext.ui.editor.markupEditor&quot; name=&quot;README.md&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\README.md&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/README.md&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;property.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\property.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/property.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;properties.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\properties.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/properties.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;paymentHistory.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\paymentHistory.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/paymentHistory.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;owners.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\owners.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/owners.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;newUser.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\newUser.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/newUser.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;newTaxes.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\newTaxes.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/newTaxes.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;newTax.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\newTax.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/newTax.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;newProperty.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\newProperty.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/newProperty.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;newMaintenanceTask.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\newMaintenanceTask.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/newMaintenanceTask.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;newInsurance.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\newInsurance.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/newInsurance.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;newHoa.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\newHoa.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/newHoa.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;insurance.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\insurance.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/insurance.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;index.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\index.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/index.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_aq1BMvRuEemSw-87IUBHSQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_bCvx8fRuEemSw-87IUBHSQ" label="%trimmedwindow.label.eclipseSDK" x="130" y="130" width="1024" height="768">
@@ -75,31 +75,35 @@
                 <tags>categoryTag:General</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_bK951fRuEemSw-87IUBHSQ" containerData="7800" selectedElement="_bK951vRuEemSw-87IUBHSQ">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_bK951vRuEemSw-87IUBHSQ" containerData="7500" selectedElement="_bK951_RuEemSw-87IUBHSQ" horizontal="true">
-                <children xsi:type="advanced:Placeholder" xmi:id="_bK951_RuEemSw-87IUBHSQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_bKoioPRuEemSw-87IUBHSQ"/>
-                <children xsi:type="basic:PartStack" xmi:id="_bK952PRuEemSw-87IUBHSQ" elementId="right" containerData="2500" selectedElement="_bK952fRuEemSw-87IUBHSQ">
-                  <children xsi:type="advanced:Placeholder" xmi:id="_bK952fRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_bK3zMfRuEemSw-87IUBHSQ" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:General</tags>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_bK951fRuEemSw-87IUBHSQ" containerData="7800" selectedElement="_zi7rQA4tEeqck_cAQBT6hQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_zi7rQA4tEeqck_cAQBT6hQ" containerData="7500" selectedElement="_bK951_RuEemSw-87IUBHSQ" horizontal="true">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_0azHYA4tEeqck_cAQBT6hQ" toBeRendered="false" containerData="1000">
+                  <children xsi:type="basic:PartStack" xmi:id="_bK952PRuEemSw-87IUBHSQ" elementId="right" toBeRendered="false" containerData="5000">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_bK952vRuEemSw-87IUBHSQ" elementId="org.eclipse.php.ui.projectOutline" toBeRendered="false" ref="_bK4aQPRuEemSw-87IUBHSQ" closeable="true">
+                      <tags>View</tags>
+                      <tags>categoryTag:PHP Tools</tags>
+                    </children>
+                    <children xsi:type="advanced:Placeholder" xmi:id="_bK952_RuEemSw-87IUBHSQ" elementId="org.eclipse.php.ui.functions" toBeRendered="false" ref="_bK4aQfRuEemSw-87IUBHSQ" closeable="true">
+                      <tags>View</tags>
+                      <tags>categoryTag:PHP Tools</tags>
+                    </children>
+                    <children xsi:type="advanced:Placeholder" xmi:id="_bK953PRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.views.minimap.MinimapView" toBeRendered="false" ref="_bK62gPRuEemSw-87IUBHSQ" closeable="true">
+                      <tags>View</tags>
+                      <tags>categoryTag:General</tags>
+                    </children>
+                    <children xsi:type="advanced:Placeholder" xmi:id="_bK953fRuEemSw-87IUBHSQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" toBeRendered="false" ref="_bK8EoPRuEemSw-87IUBHSQ" closeable="true">
+                      <tags>View</tags>
+                      <tags>categoryTag:Mylyn</tags>
+                    </children>
                   </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_bK952vRuEemSw-87IUBHSQ" elementId="org.eclipse.php.ui.projectOutline" toBeRendered="false" ref="_bK4aQPRuEemSw-87IUBHSQ" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:PHP Tools</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_bK952_RuEemSw-87IUBHSQ" elementId="org.eclipse.php.ui.functions" toBeRendered="false" ref="_bK4aQfRuEemSw-87IUBHSQ" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:PHP Tools</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_bK953PRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.views.minimap.MinimapView" toBeRendered="false" ref="_bK62gPRuEemSw-87IUBHSQ" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:General</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_bK953fRuEemSw-87IUBHSQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_bK8EoPRuEemSw-87IUBHSQ" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:Mylyn</tags>
+                  <children xsi:type="basic:PartStack" xmi:id="_zi7rQQ4tEeqck_cAQBT6hQ" elementId="PartStack@45f9f520" toBeRendered="false" containerData="5000">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_bK952fRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.views.ContentOutline" toBeRendered="false" ref="_bK3zMfRuEemSw-87IUBHSQ" closeable="true">
+                      <tags>View</tags>
+                      <tags>categoryTag:General</tags>
+                    </children>
                   </children>
                 </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_bK951_RuEemSw-87IUBHSQ" elementId="org.eclipse.ui.editorss" containerData="9000" ref="_bKoioPRuEemSw-87IUBHSQ"/>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_bK953vRuEemSw-87IUBHSQ" elementId="bottom" containerData="2500" selectedElement="_bK953_RuEemSw-87IUBHSQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_bK953_RuEemSw-87IUBHSQ" elementId="org.eclipse.ui.views.ProblemView" ref="_bK2lEPRuEemSw-87IUBHSQ" closeable="true">
@@ -175,15 +179,21 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_bKoioPRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.editorss" selectedElement="_bKpJsPRuEemSw-87IUBHSQ">
-      <children xsi:type="basic:PartStack" xmi:id="_bKpJsPRuEemSw-87IUBHSQ" elementId="org.eclipse.e4.primaryDataStack">
+      <children xsi:type="basic:PartStack" xmi:id="_bKpJsPRuEemSw-87IUBHSQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_vesZwA4tEeqck_cAQBT6hQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <children xsi:type="basic:Part" xmi:id="_vesZwA4tEeqck_cAQBT6hQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="rentInfo.html" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;rentInfo.html&quot; partName=&quot;rentInfo.html&quot; title=&quot;rentInfo.html&quot; tooltip=&quot;D:\Users\nthnd\OneDrive\Desktop\PR Keeper\SeniorProject\rentInfo.html&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/D:/Users/nthnd/OneDrive/Desktop/PR%20Keeper/SeniorProject/rentInfo.html&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;2061&quot; selectionOffset=&quot;17&quot; selectionTopPixel=&quot;15&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_bK0v4PRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.navigator.resources.ProjectExplorer"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.navigator.resources"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1571709074194&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <tags>active</tags>
@@ -234,7 +244,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_bdRKwfRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.views.ContentOutline"/>
+      <toolbar xmi:id="_bdRKwfRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.views.ContentOutline" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_bK4aQPRuEemSw-87IUBHSQ" elementId="org.eclipse.php.ui.projectOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="PHP Project Outline" iconURI="platform:/plugin/org.eclipse.php.ui/icons/full/obj16/php_project_outline.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.php.internal.ui.projectoutlineview.ProjectOutlinePart"/>
@@ -257,8 +267,14 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_bK8EoPRuEemSw-87IUBHSQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Task List" iconURI="platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.mylyn.internal.tasks.ui.views.TaskListView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.mylyn.tasks.ui"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view linkWithEditor=&quot;true&quot; presentation=&quot;org.eclipse.mylyn.tasks.ui.categorized&quot;>&#xD;&#xA;&lt;sorter groupBy=&quot;CATEGORY_QUERY&quot;>&#xD;&#xA;&lt;sorter>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled0 sortDirection=&quot;1&quot; sortKey=&quot;DUE_DATE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled1 sortDirection=&quot;1&quot; sortKey=&quot;SCHEDULED_DATE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled2 sortDirection=&quot;1&quot; sortKey=&quot;PRIORITY&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled3 sortDirection=&quot;1&quot; sortKey=&quot;RANK&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled4 sortDirection=&quot;1&quot; sortKey=&quot;DATE_CREATED&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled5 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled6 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled7 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.scheduled8 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized0 sortDirection=&quot;1&quot; sortKey=&quot;PRIORITY&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized1 sortDirection=&quot;1&quot; sortKey=&quot;RANK&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized2 sortDirection=&quot;1&quot; sortKey=&quot;DATE_CREATED&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized3 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized4 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized5 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized6 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized7 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;sortorg.eclipse.mylyn.tasks.ui.categorized8 sortDirection=&quot;1&quot; sortKey=&quot;NONE&quot;/>&#xD;&#xA;&lt;/sorter>&#xD;&#xA;&lt;/sorter>&#xD;&#xA;&lt;filteredTreeFindHistory/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Mylyn</tags>
+      <menus xmi:id="_zd7PcA4tEeqck_cAQBT6hQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_zd72gA4tEeqck_cAQBT6hQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_bK8rsPRuEemSw-87IUBHSQ" elementId="org.eclipse.wst.server.ui.ServersView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Servers" iconURI="platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.wst.server.ui.internal.cnf.ServersView2"/>
@@ -285,7 +301,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bGHPAPRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_bGMukPRuEemSw-87IUBHSQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_arYbF_RuEemSw-87IUBHSQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_FQWksA4tEeqck_cAQBT6hQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_arYbF_RuEemSw-87IUBHSQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bGHPAfRuEemSw-87IUBHSQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -313,7 +329,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bGH2EPRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_bGNVo_RuEemSw-87IUBHSQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_arXz-vRuEemSw-87IUBHSQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_FQZoAQ4tEeqck_cAQBT6hQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_arXz-vRuEemSw-87IUBHSQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bGH2EfRuEemSw-87IUBHSQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -352,8 +368,17 @@
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_w4dpEA4tEeqck_cAQBT6hQ" elementId="bottom(IDEWindow).(org.eclipse.php.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
     </trimBars>
-    <trimBars xmi:id="_aq1BOfRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.platform" side="Right"/>
+    <trimBars xmi:id="_aq1BOfRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.platform" toBeRendered="false" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_w3950A4tEeqck_cAQBT6hQ" elementId="right(IDEWindow).(org.eclipse.php.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
   </children>
   <bindingTables xmi:id="_aq1BOvRuEemSw-87IUBHSQ" contributorURI="platform:/plugin/org.eclipse.platform" bindingContext="_aq1BO_RuEemSw-87IUBHSQ"/>
   <bindingTables xmi:id="_arsj4PRuEemSw-87IUBHSQ" elementId="org.eclipse.ui.contexts.window" bindingContext="_aq1BPPRuEemSw-87IUBHSQ">
