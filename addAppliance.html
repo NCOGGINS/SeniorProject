@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>PR Keeper</title>
+<title>Add Payment</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/css.css">
@@ -59,14 +59,41 @@
         </div>
     </div>
 
+	Appliance Type:
+	<form action="scripts/newAppliance.php" method="post"
+		id="newAppliance">
 
-	<div class="mainBody" id="ApplianceList">
+		<input type="hidden" name="StreetAddress" id="StreetAddress">
 		<script>
-			$(document).ready(function() {
-				$.post("scripts/applianceList.php", function(postresult) {
-					$("#ApplianceList").append(postresult);
-				});
-			});
+			function ParseURLParameter(Parameter) {
+				var FullURL = window.location.search.substring(1);
+				var ParametersArray = FullURL.split('&');
+				for (var i = 0; i < ParametersArray.length; i++) {
+					var CurrentParameter = ParametersArray[i].split('=');
+					if (CurrentParameter[0] == Parameter) {
+						return CurrentParameter[1];
+					}
+				}
+			}
+			var StreetAddress = ParseURLParameter('StreetAddress');
+			document.getElementById("StreetAddress").setAttribute('value',
+					StreetAddress);
+			var destination = ("scripts/newAppliance.php?address=" + StreetAddress)
+			document.getElementById('newAppliance').action = destination;
 		</script>
+
+		<script>
+			$(document).ready(
+					function() {
+						$.post("scripts/dropdownApplianceTypes.php",
+								function(postresult) {
+									$("#newAppliance").prepend(postresult);
+								});
+					});
+		</script>
+		<br> Install Date: <input type="date" name="installDate"><br>
+		<br> Cost: <input type="text" name="cost"><br>
+		<input type="Submit">
+	</form>
 </body>
 </html>

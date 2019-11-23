@@ -22,38 +22,38 @@ if (mysqli_errno($con) != 0) {
     $row = mysqli_fetch_array($result);
 }
 
-$MaintenanceName = mysqli_real_escape_string($con, $_REQUEST['maintenanceType']);
+$ApplianceName = mysqli_real_escape_string($con, $_REQUEST['ApplianceType']);
 $InstallDate = mysqli_real_escape_string($con, $_REQUEST['installDate']);
 $PropertyID = $row['PropertyID'];
 $Cost = mysqli_real_escape_string($con, $_REQUEST['cost']);
-$ServiceDue = mysqli_real_escape_string($con, $_REQUEST['serviceDate']);
 
-$query = "INSERT INTO Maintenance (`Install Date`,`Cost`,`Property_PropertyID`,`Service Due`) VALUES ('$InstallDate', '$Cost', '$PropertyID', '$ServiceDue')";
+$query = "INSERT INTO Appliances (`InstallDate`,`Cost`,`Property_PropertyID`) VALUES ('$InstallDate', '$Cost', '$PropertyID')";
 mysqli_query($con, $query);
 if (mysqli_errno($con) != 0) {
     echo mysqli_errno($con) . ": " . mysqli_error($con) . "\n";
 } else {
-    $maintenanceidquery = "Select MaintenanceID FROM Maintenance WHERE Property_PropertyID = '$PropertyID' AND Cost = '$Cost'";   
-    $maintenanceresult = mysqli_query($con, $maintenanceidquery);
+    $Applianceidquery = "Select ApplianceID FROM Appliances WHERE Property_PropertyID = '$PropertyID' AND Cost = '$Cost'";   
+    $Applianceresult = mysqli_query($con, $Applianceidquery);
     if (mysqli_errno($con) != 0) {
         echo mysqli_errno($con) . ": " . mysqli_error($con) . "\n";
     } else {
-        $maintenancerow = mysqli_fetch_array($maintenanceresult);
-        $MaintenanceID = $maintenancerow['MaintenanceID'];
-        $maintenanceTypequery = "Select MaintenanceTypeID FROM MaintenanceType WHERE MaintenanceName = '$MaintenanceName'";
-        $maintenanceTyperesult = mysqli_query($con, $maintenanceTypequery);
+        $Appliancerow = mysqli_fetch_array($Applianceresult);
+        $ApplianceID = $Appliancerow['ApplianceID'];
+        $ApplianceTypequery = "Select ApplianceTypeID FROM ApplianceType WHERE ApplianceName = '$ApplianceName'";
+        echo $ApplianceName;
+        $ApplianceTyperesult = mysqli_query($con, $ApplianceTypequery);
         if (mysqli_errno($con) != 0) {
             echo mysqli_errno($con) . ": " . mysqli_error($con) . "\n";
         } else {
-            $MaintenanceTypeRow = mysqli_fetch_array($maintenanceTyperesult);
-            $MaintenanceTypeID = $MaintenanceTypeRow['MaintenanceTypeID'];
-            $joinquery = "INSERT INTO MaintenanceTypeHasMaintenance (`Maintenance Type_MaintenanceTypeID`,`Maintenance_MaintenanceID`) VALUES ('$MaintenanceTypeID', '$MaintenanceID')";
+            $ApplianceTypeRow = mysqli_fetch_array($ApplianceTyperesult);
+            $ApplianceTypeID = $ApplianceTypeRow['ApplianceTypeID'];
+            $joinquery = "INSERT INTO ApplianceTypeHasAppliances (`Appliance Type_ApplianceTypeID`,`Appliances_ApplianceID`) VALUES ('$ApplianceTypeID', '$ApplianceID')";
             mysqli_query($con, $joinquery);
             if (mysqli_errno($con) != 0) {
                 echo mysqli_errno($con) . ": " . mysqli_error($con) . "\n";
                 echo $joinquery;
             } else{
-               echo "Maintenance Item Added.";
+               echo "Appliance Added.";
             }
         }
     }
