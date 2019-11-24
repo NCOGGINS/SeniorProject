@@ -96,15 +96,16 @@
 				});
 			</script>
 		</div>
-		<div class="home">
-			<p class="homep" style="font-size: 38px;">Alerts</p>
-			<table>
-				<tr>
-					<th>Header1</th>
-					<th>Header2</th>
-					<th>Header3</th>
-				</tr>
-			</table>
+		<div class="home" id = "AlertsTable">
+			<p class="homep" style="font-size: 38px;">Alerts
+			</p>
+			<script>
+				$(document).ready(function() {
+					$.post("scripts/homeAlerts.php", function(postresult) {
+						$("#AlertsTable").append(postresult);
+					});
+				});
+			</script>
 		</div>
 	</div>
 </body>
