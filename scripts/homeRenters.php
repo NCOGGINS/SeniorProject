@@ -18,7 +18,7 @@ $result = mysqli_query($con, $query);
 ?>
 		<table id="renter" border="0" cellspacing="2" cellpadding="2">
 		<tr>
-			<th>PropertyID</th>
+			<th>Address</th>
 			<th>Name</th>
 			<th>Rent Amount</th>
 			<th>Lease End Date</th>

@@ -16,11 +16,11 @@ $con = mysqli_connect("avl.cs.unca.edu", $username, $password, $database) or die
 $alertsQuery = "select * from `Alerts` order by `Due Date` asc limit 3;";
 $alertsResult = mysqli_query($con, $alertsQuery);
 
-mysqli_close($con);
+
 ?>
 		<table id="alerts" border="0" cellspacing="2" cellpadding="2">
 		<tr>
-			<th>Property ID</th>
+			<th>Address</th>
 			<th>Cost</th>
 			<th>Due Date</th>
 
@@ -36,8 +36,14 @@ while ($alertsRow = mysqli_fetch_array($alertsResult)) {
     ?>
 
 			<tr>
+										<?php
+    $query2 = "SELECT StreetAddress FROM Property WHERE PropertyID=$alertsPropertyID";
+    $result2 = mysqli_query($con, $query2);
+    $row2 = mysqli_fetch_array($result2);
+    $StreetAddress = $row2['StreetAddress'];
+    ?>	
 			<td>
-					<?php echo "$alertsPropertyID"; ?>
+					<?php echo "$StreetAddress"; ?>
 				</td>
 			<td>
 					<?php echo "$$alertsCost"; ?>
@@ -49,8 +55,13 @@ while ($alertsRow = mysqli_fetch_array($alertsResult)) {
 		</tr>
     <?php
 }
+mysqli_close($con);
 echo "<alerts>";
 ?>
+
+
+
+
 
 
 
