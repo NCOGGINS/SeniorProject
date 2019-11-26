@@ -17,7 +17,6 @@ $StreetAddress = $_GET["address"];
 $query = "SELECT * FROM Property WHERE StreetAddress = '$StreetAddress'";
 $result = mysqli_query($con, $query);
 
-echo "<b><center>Property Information</center></b><br><br>";
 ?>
 		<table id="property">
 		<tr>
