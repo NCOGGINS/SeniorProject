@@ -13,7 +13,7 @@ ini_set('display_errors', 1);
 include ("dbinfo.inc.php");
 $con = mysqli_connect("avl.cs.unca.edu", $username, $password, $database) or die("Unable to select database");
 
-$alertsQuery = "select * from `Alerts` order by `Due Date` desc limit 3;";
+$alertsQuery = "select * from `Alerts` order by `Due Date` asc limit 3;";
 $alertsResult = mysqli_query($con, $alertsQuery);
 
 mysqli_close($con);
